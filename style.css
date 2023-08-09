@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to left, black,black);
+    
+    align-items: center;
+    
+}
+.box{
+    
+
+height: 80px;
+color: white;
+left: 50%;
+
+
+}
+.color-picker-container
+{
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+background-color: transparent;
+left: 50%;
+
+}
+.color-picker-input1, .color-picker-input2{
+    width: 100px;
+    margin: 1px;
+
+}
+
+.clr-input1,.clr-input2{
+    border:solid 2px White;
+    
+}
+.text{
+    color: White;
+    font-weight: 600;
+    
+}
+.button-container { 
+    height: 200px;
+    position: relative;
+    
+   
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
